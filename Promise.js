@@ -88,5 +88,7 @@ function checkCalculation(a, b){
     });
 }
  checkPerfectNumber(9, 2).then((result) => {
-    console.log(result);}).catch((error) => {
-        console.log(error);});
+    console.log(result);
+}).catch((error) => {
+        console.log(error);
+});

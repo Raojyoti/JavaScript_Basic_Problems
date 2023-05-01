@@ -150,3 +150,17 @@ console.log("After apply every method ==> "+everyOver18);
 function myFunction(value) {
   return value > 20;
 }
+
+
+
+function checkPerfectNumber(num){
+      for(let i=1; i<num; i++){
+          if(num % i ==0){
+              console.log("Perfect number");
+          }else{
+              console.log("Not Perfect number");
+          }
+      }
+}
+
+checkPerfectNumber(6);
